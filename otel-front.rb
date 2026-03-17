@@ -4,26 +4,26 @@
 class OtelFront < Formula
   desc "Lightweight OpenTelemetry viewer for local development"
   homepage "https://github.com/mesaglio/otel-front"
-  version "0.0.1"
+  version "0.0.3"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/mesaglio/otel-front/releases/download/v0.0.1/otel-front_v0.0.1_Darwin_arm64.tar.gz"
-      sha256 "2acb80d83ceb891eaf30c6d4554c3e0227989cf960244cc779c9a281ef8d5cfe"
+      url "https://github.com/mesaglio/otel-front/releases/download/v0.0.3/otel-front_v0.0.3_Darwin_arm64.tar.gz"
+      sha256 "628bf5a25ea9f4a377ae8d1ee2d95c3a2ff1211979c8a5a1250d6842cd214dc6"
     elsif Hardware::CPU.intel?
-      url "https://github.com/mesaglio/otel-front/releases/download/v0.0.1/otel-front_v0.0.1_Darwin_x86_64.tar.gz"
-      sha256 "07b9bf6ece11837ec1208601a787d431735ea76c1bdb516d2bdf01390e9989a7"
+      url "https://github.com/mesaglio/otel-front/releases/download/v0.0.3/otel-front_v0.0.3_Darwin_x86_64.tar.gz"
+      sha256 "bc13a6794e67730149d8f7e6982c26002bd5d7e647c2a6ed30895075d77a9d87"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/mesaglio/otel-front/releases/download/v0.0.1/otel-front_v0.0.1_Linux_arm64.tar.gz"
-      sha256 "73d44550d482b04936066f918beda61fd1553665a34fa27bc75d47a9d3c6fcc9"
+      url "https://github.com/mesaglio/otel-front/releases/download/v0.0.3/otel-front_v0.0.3_Linux_arm64.tar.gz"
+      sha256 "da113140544e03b4b9dbd00d0fa732f55af9594222285ef4d5b86386e78d507d"
     elsif Hardware::CPU.intel?
-      url "https://github.com/mesaglio/otel-front/releases/download/v0.0.1/otel-front_v0.0.1_Linux_x86_64.tar.gz"
-      sha256 "8e001ae8afe54798f55907e6ffdf4e2c82b25b64edb778aa8ca08dd88f9376e2"
+      url "https://github.com/mesaglio/otel-front/releases/download/v0.0.3/otel-front_v0.0.3_Linux_x86_64.tar.gz"
+      sha256 "46d65ea572edeea5c38cf3cb5d68ab6d4055f912a6404abf7bc7d6b4bfd1bdf6"
     end
   end
 
